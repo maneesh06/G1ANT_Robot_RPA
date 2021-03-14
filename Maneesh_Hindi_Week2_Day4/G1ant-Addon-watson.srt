@@ -1,0 +1,215 @@
+﻿1
+00:00:00,000 --> 00:00:03,620
+Hi everyone welcome to G1ant Tutorial
+
+2
+00:00:03,620 --> 00:00:03,640
+in this video I am going  to tell about all these command
+Hi everyone welcome to G1ant Tutorial
+
+3
+00:00:03,640 --> 00:00:06,960
+in this video I am going  to tell about all these command
+
+4
+00:00:07,540 --> 00:00:10,020
+which is available in watsonaddon
+
+5
+00:00:10,020 --> 00:00:14,900
+ then here I am declaring api variable
+
+6
+00:00:14,900 --> 00:00:14,920
+here is my api key and now I am declaring serveruri veriable
+ then here I am declaring api variable
+
+7
+00:00:14,920 --> 00:00:22,000
+here is my api key and now I am declaring serveruri veriable
+
+8
+00:00:22,000 --> 00:00:29,020
+after that inserting this url in this veriable
+
+9
+00:00:29,020 --> 00:00:36,480
+with the help of watson.classifyimage command, we can classify any image
+
+10
+00:00:36,480 --> 00:00:40,520
+here I am classifying this image
+
+11
+00:00:40,580 --> 00:00:45,560
+and here i am giving my api key
+
+12
+00:00:45,560 --> 00:00:49,980
+and here I am giving this url.
+
+13
+00:00:49,980 --> 00:00:55,100
+all extracted information is printed in the dialog box
+
+14
+00:00:55,100 --> 00:01:01,000
+Now i am going to tell you how Can I generete this api key
+
+15
+00:01:01,000 --> 00:01:05,220
+firstly open IBM Cloud website
+
+16
+00:01:05,220 --> 00:01:10,700
+first create his account and login in it
+
+17
+00:01:10,700 --> 00:01:14,600
+after that you can come on this page and
+
+18
+00:01:14,600 --> 00:01:19,400
+Go on the Catalog Service
+
+19
+00:01:19,400 --> 00:01:30,040
+As it is opened , there is available lots of command
+
+20
+00:01:30,040 --> 00:01:33,520
+As watson assistant , watson studio
+
+21
+00:01:33,520 --> 00:01:37,840
+Because I have to classify image , click on visual recognition 
+
+22
+00:01:37,840 --> 00:01:41,340
+So I am selecting it
+
+23
+00:01:41,340 --> 00:01:43,640
+and here
+
+24
+00:01:43,640 --> 00:01:44,240
+and click on create
+and here
+
+25
+00:01:44,240 --> 00:01:48,620
+and click on create
+
+26
+00:01:48,620 --> 00:01:50,620
+as I already clicked
+
+27
+00:01:50,620 --> 00:01:52,620
+you have to click on this create
+
+28
+00:01:52,620 --> 00:01:59,580
+and you now reached on this page and click on service credential
+
+29
+00:01:59,580 --> 00:02:06,620
+click on New credential > add
+
+30
+00:02:06,620 --> 00:02:10,760
+now you reached on this type of interface
+
+31
+00:02:10,760 --> 00:02:12,760
+and now copy  it
+
+32
+00:02:12,760 --> 00:02:19,380
+now paste on notepad or otherwise copy this API key
+
+33
+00:02:19,380 --> 00:02:21,380
+this is your API key
+
+34
+00:02:21,420 --> 00:02:27,340
+so in this way you can generate your API key and paste here
+
+35
+00:02:27,340 --> 00:02:29,340
+now I am running it
+
+36
+00:02:29,340 --> 00:02:38,640
+you can see here all the extracted information is printed  in dialog box
+
+37
+00:02:38,640 --> 00:02:41,920
+now come on the another comand
+
+38
+00:02:41,920 --> 00:02:46,100
+now again I am generating api key
+
+39
+00:02:46,100 --> 00:02:52,660
+so to generate this api key go in the speech  to text key
+
+40
+00:02:52,660 --> 00:02:56,200
+as  I earlier told here
+
+41
+00:02:56,200 --> 00:03:01,180
+Go in catalog
+
+42
+00:03:01,180 --> 00:03:08,140
+and follow same process to go speech to text process
+
+43
+00:03:08,140 --> 00:03:12,340
+now again I am declaring serveruri variable
+
+44
+00:03:12,340 --> 00:03:14,340
+and storing this url
+
+45
+00:03:14,340 --> 00:03:26,180
+with the help of watson speechtotext we can transcript  any audio file
+
+46
+00:03:26,180 --> 00:03:28,180
+this is my audio file
+
+47
+00:03:28,180 --> 00:03:31,680
+here I am storing my api key
+
+48
+00:03:31,680 --> 00:03:38,080
+this is url and printing the result in a dialog box
+
+49
+00:03:38,080 --> 00:03:40,080
+now i am running
+
+50
+00:03:40,080 --> 00:03:49,020
+my audio file is very large 
+
+51
+00:03:49,020 --> 00:03:51,020
+ so it may take some time
+
+52
+00:03:51,020 --> 00:04:00,760
+here you see information has been printed in a dialog box
+
+53
+00:04:00,760 --> 00:04:02,760
+thank you
+

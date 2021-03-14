@@ -1,0 +1,176 @@
+1
+00:00:00,940 --> 00:00:03,740
+hi everyone welcome to the G1ant tutorial
+
+2
+00:00:04,280 --> 00:00:11,560
+I this video I going to tell about all these command which is available in xlsx addon
+
+3
+00:00:13,340 --> 00:00:21,720
+with the help of xlsx.open command, we can open any xlsx file
+
+4
+00:00:22,160 --> 00:00:24,920
+and activate first sheet in it
+
+5
+00:00:25,340 --> 00:00:29,000
+here I am opening this given Xlsx file
+
+6
+00:00:29,640 --> 00:00:34,180
+i am only assess for read mode
+
+7
+00:00:34,360 --> 00:00:39,760
+Isf you want to access for both mode then  write raedwrite
+
+8
+00:00:40,960 --> 00:00:52,600
+createifnotexist, mean Create that file if it is  not available
+
+9
+00:00:53,040 --> 00:00:57,100
+and result is stored in this veriable
+
+10
+00:00:57,100 --> 00:01:01,600
+means G1ant robot will automatically generate an Id that stored in this variable
+
+11
+00:01:02,120 --> 00:01:07,440
+with the help of this id we can switch xlsx window and ude other command
+
+12
+00:01:07,940 --> 00:01:18,300
+xlsx.countrow, with help of this command we can count no of row in any xlsx file
+
+13
+00:01:19,020 --> 00:01:24,780
+Now I am opening this file and no of rows of this file is stored in this variable
+
+14
+00:01:26,360 --> 00:01:31,420
+you can see here no of rows has been printed
+
+15
+00:01:32,620 --> 00:01:50,620
+again  here i am using new command which is again .close command
+
+16
+00:01:50,840 --> 00:01:58,200
+firstly I am opening first excel file then I am opening second xlsx file
+
+17
+00:01:58,600 --> 00:02:08,540
+and now with the help of id I am closing second xlsx file
+
+18
+00:02:09,080 --> 00:02:13,480
+now come on another command
+
+19
+00:02:14,160 --> 00:02:19,460
+I am opening xlsx file with help of xlsx.open command
+
+20
+00:02:20,180 --> 00:02:33,760
+with the help of xlsx.find command we can find the coordinate of any cell where  a specified value is stored
+
+21
+00:02:34,240 --> 00:02:43,620
+Here I am finding the coordinate of that cell where this value is available
+
+22
+00:02:44,380 --> 00:02:52,520
+now printing the colums and rows in the dialog box
+
+23
+00:02:53,000 --> 00:02:54,920
+you can see here
+
+24
+00:02:55,800 --> 00:02:59,140
+cloumn 1 and rows 12
+
+25
+00:03:01,700 --> 00:03:15,880
+xslx.switch , with the help of this command we can switch xslx file which is opened
+
+26
+00:03:16,740 --> 00:03:21,600
+here I am opening First xlsx file  and second xlsx file
+
+27
+00:03:21,980 --> 00:03:25,580
+now i am switching first xlsx file again
+
+28
+00:03:26,660 --> 00:03:37,760
+and xlsx.getvalue command , with the help of this command we can find the value of any specified cell
+
+29
+00:03:38,560 --> 00:03:41,600
+here I am finding the value of row 1 and column 1
+
+30
+00:03:42,080 --> 00:03:48,280
+result is stored in a variable and printing the result in a dialog box
+
+31
+00:03:49,560 --> 00:03:52,200
+again I am switching in second xlsx file
+
+32
+00:03:53,160 --> 00:04:00,980
+and here also finding the value of same cell and printing the result in a dialog box
+
+33
+00:04:02,080 --> 00:04:15,560
+and xlsx.setvalues command, with the help of this command we can set the value of a specified
+
+34
+00:04:17,580 --> 00:04:28,680
+then here  i am saving 123 value in a specified cell (25 row and 1 column )
+
+35
+00:04:30,180 --> 00:04:31,220
+Now I am running
+
+36
+00:04:34,220 --> 00:04:43,820
+you can see dhawan and Maneesh are at same location and this value has been saved
+
+37
+00:04:45,480 --> 00:04:54,920
+in a second xlsx file you can see here
+
+38
+00:04:56,380 --> 00:05:03,480
+see here 123 has been saved
+
+39
+00:05:12,060 --> 00:05:14,480
+again opening xlsx file
+
+40
+00:05:15,120 --> 00:05:23,300
+xlsx.setsheet, with the help of this command we can set a specified sheet
+
+41
+00:05:24,320 --> 00:05:26,480
+in a active xlsx file
+
+42
+00:05:28,060 --> 00:05:29,340
+noow i am running it
+
+43
+00:05:30,440 --> 00:05:31,640
+sheet has been set
+
+44
+00:05:33,000 --> 00:05:34,600
+thank for this tutorial
+
