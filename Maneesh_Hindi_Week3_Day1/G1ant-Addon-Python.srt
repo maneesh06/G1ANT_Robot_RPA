@@ -1,0 +1,224 @@
+1
+00:00:00,000 --> 00:00:03,320
+Hi everyone, Welcome to G1ant tutorial
+
+2
+00:00:03,340 --> 00:00:09,020
+In this I will tell you how to add python addon in G1ant robot
+
+3
+00:00:09,540 --> 00:00:15,740
+so for adding firstly go in tool menu > marketplace
+
+4
+00:00:16,820 --> 00:00:22,740
+and click on G1ant.Addon.Python
+
+5
+00:00:22,740 --> 00:00:26,520
+I have installed already that's why showing already installed
+
+6
+00:00:27,140 --> 00:00:31,660
+close
+
+7
+00:00:32,440 --> 00:00:38,020
+Go in view menu > Addon
+
+8
+00:00:38,440 --> 00:00:42,680
+you can see here python is already added
+
+9
+00:00:43,040 --> 00:00:47,480
+Now tick on python addon
+
+10
+00:00:48,820 --> 00:00:55,160
+Now I will tell you how I can run a python code in G1ant studio
+
+11
+00:00:55,480 --> 00:01:00,600
+first I am launching python with the help of program
+
+12
+00:01:01,520 --> 00:01:09,700
+with the help of keyboard this script is printed in the python
+
+13
+00:01:10,240 --> 00:01:14,440
+Now I am pressing enter
+
+14
+00:01:16,220 --> 00:01:21,880
+Now write same code in G1ant as I write in python
+
+15
+00:01:22,080 --> 00:01:24,880
+you should write understanding python as
+
+16
+00:01:25,240 --> 00:01:30,820
+first I am defining a string in a variable
+
+17
+00:01:31,500 --> 00:01:39,040
+we use semicolon for changing the line
+
+18
+00:01:39,920 --> 00:01:45,700
+in python if I want to print then I write S and press enter key
+
+19
+00:01:46,020 --> 00:01:49,400
+Now I am writing s and pressing Enter
+
+20
+00:01:49,660 --> 00:01:55,420
+then above written code run in the python interpreter
+
+21
+00:01:55,860 --> 00:01:57,440
+Now I am running
+
+22
+00:01:59,260 --> 00:02:05,520
+First with help of keyboard it is printed as written in G1ant
+
+23
+00:02:06,160 --> 00:02:08,320
+then script is running in python
+
+24
+00:02:08,880 --> 00:02:10,400
+as script  run in python
+
+25
+00:02:10,740 --> 00:02:13,840
+answer is printed
+
+26
+00:02:19,020 --> 00:02:21,940
+now see how to perform addition
+
+27
+00:02:22,320 --> 00:02:25,240
+nothing do you do as I told earlier
+
+28
+00:02:25,480 --> 00:02:31,380
+first launch python ,write same script which u want to run
+
+29
+00:02:31,860 --> 00:02:37,860
+when this is is printed in python interpreter than it is able to understand what I have to do
+
+30
+00:02:38,220 --> 00:02:42,900
+this is printed in python
+
+31
+00:02:43,300 --> 00:02:45,820
+it run after pressing enter
+
+32
+00:02:48,100 --> 00:02:53,380
+first here printed with keyboard
+
+33
+00:02:53,880 --> 00:02:56,860
+semicolon mean line change
+
+34
+00:02:57,320 --> 00:03:01,100
+as entered It run and give answered
+
+35
+00:03:04,240 --> 00:03:08,980
+here I defining list
+
+36
+00:03:09,480 --> 00:03:13,880
+simple defining  list  variable
+
+37
+00:03:14,340 --> 00:03:16,640
+again changing line
+
+38
+00:03:17,720 --> 00:03:21,160
+now using max function for finding maximum element
+
+39
+00:03:21,780 --> 00:03:24,740
+and printing maximum element
+
+40
+00:03:25,240 --> 00:03:26,520
+and pressing enter
+
+41
+00:03:28,720 --> 00:03:33,640
+first it is printed here
+
+42
+00:03:34,480 --> 00:03:40,320
+and now pressing enter and his answer is printed here
+
+43
+00:03:40,880 --> 00:03:43,200
+now see tuple
+
+44
+00:03:43,720 --> 00:03:47,340
+first simple defining tuple
+
+45
+00:03:47,880 --> 00:03:52,320
+then I am accessing second and last element
+
+46
+00:03:52,700 --> 00:03:55,180
+python has index 0 1 2
+
+47
+00:03:55,920 --> 00:03:57,200
+here 1 means Banana
+
+48
+00:03:57,600 --> 00:03:58,900
+-1 mean end
+
+49
+00:03:59,320 --> 00:04:01,300
+end means cherry
+
+50
+00:04:01,600 --> 00:04:04,560
+both printed after pressing enter
+
+51
+00:04:05,140 --> 00:04:24,200
+I am wrinting in G1ant studio then If want to hive space in string then I have to use triple prime sign
+
+52
+00:04:24,720 --> 00:04:27,100
+now run it
+
+53
+00:04:27,440 --> 00:04:30,000
+simple printed
+
+54
+00:04:30,500 --> 00:04:33,140
+both answer comes after pressing enter
+
+55
+00:04:33,680 --> 00:04:39,240
+So guys in this way you can run any python script in G1ant studio
+
+56
+00:04:39,660 --> 00:04:41,260
+Thank you for this video
+
