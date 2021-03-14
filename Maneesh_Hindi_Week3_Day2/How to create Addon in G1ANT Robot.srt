@@ -1,0 +1,336 @@
+1
+00:00:00,580 --> 00:00:03,140
+Hi everyone Welcome to G1ANT Tutorial
+
+2
+00:00:03,360 --> 00:00:06,080
+In this Tutorial I will tell you
+
+3
+00:00:06,340 --> 00:00:09,920
+How to create a addon in a G1ant robot
+
+4
+00:00:10,880 --> 00:00:14,720
+for this go in Visual studio
+
+5
+00:00:21,940 --> 00:00:26,420
+click on create Project
+
+6
+00:00:29,020 --> 00:00:35,980
+Here you have to click on G1ant robot Addon
+
+7
+00:00:36,560 --> 00:00:44,180
+you can download and install G1ANTRobot Adon from G!ANT github by SDK
+
+8
+00:00:45,160 --> 00:00:46,040
+click on next
+
+9
+00:00:46,500 --> 00:00:50,600
+This is the name of my project and this is a location
+
+10
+00:00:51,040 --> 00:00:55,040
+Here is framework we also can change it
+
+11
+00:01:12,160 --> 00:01:16,260
+you can see default tempelate of G1ant has been opened
+
+12
+00:01:16,800 --> 00:01:23,280
+We have to reset it to resolve errors
+
+13
+00:01:23,940 --> 00:01:27,580
+Go in Project
+
+14
+00:01:28,280 --> 00:01:29,800
+> manage nuget Package
+
+15
+00:01:32,780 --> 00:01:38,480
+Here we have to reset it or uninstall it
+
+16
+00:01:39,780 --> 00:01:41,060
+click on uninstall
+
+17
+00:01:46,400 --> 00:01:49,000
+Go to browse
+
+18
+00:01:49,800 --> 00:01:54,180
+and search for G1ANT
+
+19
+00:01:55,800 --> 00:02:00,220
+install G1ant again
+
+20
+00:02:05,640 --> 00:02:08,240
+you can see
+
+21
+00:02:08,840 --> 00:02:11,360
+G1ant has been installed
+
+22
+00:02:11,620 --> 00:02:14,260
+now I am closing it
+
+23
+00:02:18,680 --> 00:02:24,200
+we can to defing class for adding the commands
+
+24
+00:02:24,520 --> 00:02:26,720
+For defining class
+
+25
+00:02:27,100 --> 00:02:31,660
+Go in Add > Class
+
+26
+00:02:32,200 --> 00:02:36,300
+here we can write the name of class
+
+27
+00:02:37,540 --> 00:02:41,060
+suppose
+
+28
+00:02:46,640 --> 00:02:51,540
+Myfirst command
+
+29
+00:02:53,100 --> 00:02:58,480
+you have to add .cs extension
+
+30
+00:03:00,340 --> 00:03:02,020
+Firstly
+
+31
+00:03:02,980 --> 00:03:06,920
+myfirst command has been opened
+
+32
+00:03:10,220 --> 00:03:15,640
+first we have to define the namespace of G1ANT language
+
+33
+00:03:20,440 --> 00:03:23,420
+.Language
+
+34
+00:03:31,300 --> 00:03:37,120
+in this class you have to define his command
+
+35
+00:03:37,480 --> 00:03:40,200
+which you want to perform
+
+36
+00:03:44,660 --> 00:03:47,980
+then I show you my entered command
+
+37
+00:04:26,400 --> 00:04:30,320
+you can see here
+
+38
+00:04:30,820 --> 00:04:34,120
+I write this command early
+
+39
+00:04:34,500 --> 00:04:39,140
+first you have to descriptive your command
+
+40
+00:04:39,460 --> 00:04:42,320
+name of my command is mynewcommand
+
+41
+00:04:44,540 --> 00:04:50,740
+in tooltip you have to give the description of command - here this is a demo command
+
+42
+00:04:51,200 --> 00:04:56,500
+here I define a class my_G1ant_command
+
+43
+00:04:57,140 --> 00:05:01,760
+as a command class
+
+44
+00:05:02,120 --> 00:05:05,820
+class may be variable and structure
+
+45
+00:05:10,180 --> 00:05:16,100
+here I am defining abstract scripter as a public class
+
+46
+00:05:16,400 --> 00:05:21,980
+we donot have to write any command with in this abstract scripter
+
+47
+00:05:22,300 --> 00:05:27,920
+here I am defining the argument of a command
+
+48
+00:05:28,240 --> 00:05:31,280
+we define argument as public  class
+
+49
+00:05:31,720 --> 00:05:36,180
+and define it in command argument class
+
+50
+00:05:37,240 --> 00:05:43,120
+Here I am descript the argument as I descripte the command
+
+51
+00:05:43,420 --> 00:05:46,300
+name of argument is user
+
+52
+00:05:48,780 --> 00:05:55,040
+If argument is required and I write true otherwise write false
+
+53
+00:05:55,180 --> 00:05:59,660
+in tool trip we give the description what is the use of this argument
+
+54
+00:06:00,020 --> 00:06:02,600
+type text to display
+
+55
+00:06:08,980 --> 00:06:15,740
+here I am defing argument as a textstructure
+
+56
+00:06:15,920 --> 00:06:21,460
+here we have to take it from user and have to set it
+
+57
+00:06:21,900 --> 00:06:25,680
+in a text structure command
+
+58
+00:06:25,820 --> 00:06:31,560
+Here I am defining a excute function here again
+
+59
+00:06:31,880 --> 00:06:38,160
+defining this excute as a void means it didnot return anything
+
+60
+00:06:38,580 --> 00:06:40,680
+and  defing as a pubic class
+
+61
+00:06:41,480 --> 00:06:47,320
+here I am taking the argument which I define earlier
+
+62
+00:06:48,840 --> 00:07:02,880
+We have to the value of text in message box
+
+63
+00:07:03,220 --> 00:07:05,060
+I have written this command
+
+64
+00:07:05,500 --> 00:07:07,940
+go in the build
+
+65
+00:07:08,300 --> 00:07:10,880
+and click on build solution
+
+66
+00:07:16,200 --> 00:07:18,360
+solution has been build
+
+67
+00:07:19,100 --> 00:07:23,340
+Go in addon >
+
+68
+00:07:33,360 --> 00:07:39,100
+and click on open containing folder
+
+69
+00:07:40,020 --> 00:07:45,960
+and search for .dll
+
+70
+00:07:47,120 --> 00:07:48,640
+and copy it
+
+71
+00:07:53,160 --> 00:07:58,380
+and paste in add on under G1ANT robot
+
+72
+00:07:58,940 --> 00:07:59,960
+I pasted it
+
+73
+00:08:00,940 --> 00:08:03,880
+Now I am opening my G1ant robot
+
+74
+00:08:17,100 --> 00:08:20,380
+G1ANT Robot  has been opened here
+
+75
+00:08:21,280 --> 00:08:24,720
+go in addon
+
+76
+00:08:25,240 --> 00:08:29,060
+my addon has been added
+
+77
+00:08:29,360 --> 00:08:31,500
+I also give name addon it
+
+78
+00:08:32,620 --> 00:08:37,760
+I define my command
+
+79
+00:08:38,820 --> 00:08:44,260
+as a usre we can give any text
+
+80
+00:08:45,620 --> 00:08:47,620
+suppose Hello
+
+81
+00:08:49,460 --> 00:08:52,240
+Now I am running it
+
+82
+00:08:52,900 --> 00:08:54,780
+you can see
+
+83
+00:08:55,240 --> 00:08:58,440
+In this way we can create any addon in G1ANT robot
+
+84
+00:08:59,140 --> 00:09:00,840
+Thank you
+
